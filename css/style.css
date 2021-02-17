@@ -32,7 +32,7 @@ header {
     background-color: brown;
 }
 
-/*row-top*/
+/*inizio row-top*/
 .header__row-top {
     width: 100%;
     /*test*/
@@ -69,15 +69,36 @@ header {
 }
 
 .container-right ul {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
+    list-style-type: none;
     text-align: right;
-    width: 100%;
 }
-/*row-top*/
+
+.container-right li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+.log-in {
+    background-color: white;
+    border: solid orangered 1px;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.get-hub {
+    background-color: orangered;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+/*fine row-top*/
 
 
+/*inizio row-down*/
 .header__row-down {
     width: 100%;
     /*test*/
@@ -85,12 +106,24 @@ header {
     background-color: chocolate;
 }
 
+.container-left img {
+    height: 38%;
+    width: auto;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+
+/*fine row-down*/
+
+/*inizio cover*/
 .cover {
     width: 100%;
     /*test*/
     height: 80.4%;
     background-color: hotpink;
 }
+/*fine cover*/
+
 /*FINE HEADER*/
 
 
