@@ -113,6 +113,11 @@ header {
     margin-left: 24px;
 }
 
+.row-down__ul a {
+    text-decoration: none;
+    color: black;
+}
+
 /*fine row-down*/
 
 /*inizio cover*/
@@ -120,7 +125,9 @@ header {
     width: 100%;
     /*test*/
     height: 80.4%;
-    background-color: hotpink;
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
 }
 /*fine cover*/
 
