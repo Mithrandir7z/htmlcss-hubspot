@@ -12,5 +12,35 @@ img {
 
 body {
     font-family: "Montserrat, serif";
+    /*test*/
     background-color: aqua;
 }
+
+/*INIZIO HEADER*/
+header {
+    width: 100%;
+    /*test*/
+    height: 720px;
+    background-color: brown;
+}
+
+.header__row-top {
+    width: 100%;
+    /*test*/
+    height: 70px;
+    background-color: chartreuse;
+}
+.header__row-down {
+    width: 100%;
+    /*test*/
+    height: 70px;
+    background-color: chocolate;
+}
+
+.cover {
+    width: 100%;
+    /*test*/
+    height: 80.4%;
+    background-color: hotpink;
+}
+/*FINE HEADER*/
