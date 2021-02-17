@@ -62,4 +62,12 @@ main {
     height: 800px;
     background-color: lime;
 }
+
+.container-top {
+    width: 70%;
+    /*test*/
+    height: 400px;
+    background-color: mediumturquoise;
+    margin: auto;
+}
 /*FINE MAIN*/
