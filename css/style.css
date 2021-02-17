@@ -50,7 +50,7 @@ header {
 main {
     width: 100%;
     /*test*/
-    height: 1500px;
+    height: 2050px;
     background-color: lightslategray;
     padding-top: 50px;
 }
@@ -59,7 +59,7 @@ main {
     margin: auto;
     width: 80%;
     /*test*/
-    height: 800px;
+    height: 1200px;
     background-color: lime;
 }
 
@@ -70,4 +70,62 @@ main {
     background-color: mediumturquoise;
     margin: auto;
 }
+
+.container-centre {
+    width: 70%;
+    /*test*/
+    height: 400px;
+    background-color: peru;
+    margin: auto;
+}
+
+.container-cols {
+    width: 70%;
+    /*test*/
+    height: 400px;
+    background-color: purple;
+    margin: auto;
+}
+
+.wrapper-centre {
+    width: 100%;
+    /*test*/
+    height: 400px;
+    background-color: royalblue;
+}
+
+.wrapper-bottom {
+    width: 80%;
+    /*test*/
+    height: 400px;
+    background-color: wheat;
+    margin: auto;
+}
+
+.container-bottom {
+    width: 70%;
+    /*test*/
+    height: 400px;
+    background-color: violet;
+    margin: auto;
+}
 /*FINE MAIN*/
+
+
+/*INIZIO FOOTER*/
+footer {
+    width: 100%;
+    /*test*/
+    height: 400px;
+    background-color: rgb(40, 40, 71);
+    margin: auto;
+}
+
+.footer__container {
+    width: 56%;
+    /*test*/
+    height: 100%;
+    background-color: coral;
+    margin: auto;
+}
+/*FINE FOOTER*/
