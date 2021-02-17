@@ -8,6 +8,12 @@
 img {
     width: 100%;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 /*FINE RESET*/
 
 body {
@@ -24,12 +30,37 @@ header {
     background-color: brown;
 }
 
+/*row-top*/
 .header__row-top {
     width: 100%;
     /*test*/
     height: 70px;
     background-color: chartreuse;
 }
+.container-generale {
+    width: 56%;
+    background-color: crimson;
+    margin: auto;
+}
+
+.container-left {
+    width: 50%;
+    /*test*/
+    height: 70px;
+    background-color: blue;
+    float: left;
+}
+
+.container-right {
+    width: 50%;
+    /*test*/
+    height: 70px;
+    background-color: deeppink;
+    float: left;
+}
+/*row-top*/
+
+
 .header__row-down {
     width: 100%;
     /*test*/
