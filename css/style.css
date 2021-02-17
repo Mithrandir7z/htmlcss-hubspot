@@ -20,6 +20,8 @@ body {
     font-family: "Montserrat, serif";
     /*test*/
     background-color: aqua;
+    /*test CAMBIARE IN NERO*/
+    color: red;
 }
 
 /*INIZIO HEADER*/
@@ -51,12 +53,27 @@ header {
     float: left;
 }
 
+.container-left a {
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    padding: 23px;
+}
+
 .container-right {
     width: 50%;
     /*test*/
     height: 70px;
-    background-color: deeppink;
+    background-color: white;
     float: left;
+}
+
+.container-right ul {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    width: 100%;
 }
 /*row-top*/
 
