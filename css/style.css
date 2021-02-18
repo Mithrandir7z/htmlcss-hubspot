@@ -208,7 +208,6 @@ main {
 
 .container-centre__contents__col-left {
     width: 30%;
-    height: 250px;
     background-color: white;
     float: left;
 }
@@ -236,7 +235,6 @@ main {
 
 .container-centre__contents__col-right {
     width: 70%;
-    height: 250px;
     background-color: white;
     float: right;
     padding: 25px;
