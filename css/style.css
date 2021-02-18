@@ -21,7 +21,7 @@ body {
     /*test*/
     background-color: aqua;
     /*test CAMBIARE IN NERO*/
-    color: red;
+    color: black;
 }
 
 /*INIZIO HEADER*/
@@ -29,7 +29,7 @@ header {
     width: 100%;
     /*test*/
     height: 720px;
-    background-color: brown;
+    background-color: #FFF3EC;
 }
 
 /*inizio row-top*/
@@ -56,7 +56,7 @@ header {
 .container-left a {
     display: inline-block;
     text-decoration: none;
-    color: red;
+    color: black;
     padding: 23px;
 }
 
@@ -128,6 +128,29 @@ header {
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
     background-position: 100% 20%;
+    position: relative;
+}
+
+.cover__banner {
+    width: 31%;
+    /*test*/
+    height: 300px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 330px;
+}
+
+.paragrafo {
+    font-size: 15px;
+}
+
+.cover__bottone {
+    background-color: orangered;
+    padding: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
 /*fine cover*/
 
