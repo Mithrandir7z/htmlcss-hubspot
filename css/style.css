@@ -153,7 +153,7 @@ header {
 /*INIZIO MAIN*/
 main {
     width: 100%;
-    background-color: lightslategray;
+    background-color: #F4F9FD;
     padding-top: 50px;
 }
 
@@ -312,6 +312,14 @@ main {
     height: 180px;
     background-color: #00ACB5;
     text-align: center;
+}
+
+.centre__col-top h2 {
+    color: white;
+}
+
+.centre__col-top p {
+    color: white;
 }
 
 .centre__col-bottom {
