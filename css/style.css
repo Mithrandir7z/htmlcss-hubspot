@@ -214,7 +214,8 @@ main {
 .container-centre__contents__col-left img {
     height: 150px;
     width: auto;
-    padding-left: 45px;
+    padding-left: 55px;
+    padding-top: 20px;
 }
 
 #justify {
@@ -223,7 +224,11 @@ main {
 }
 
 .container-centre__contents__col-right {
-
+    width: 70%;
+    height: 250px;
+    background-color: yellow;
+    float: right;
+    padding: 25px;
 }
 /*fine container centre*/
 
