@@ -132,13 +132,13 @@ header {
 }
 
 .cover__banner {
-    width: 31%;
+    width: 27%;
     /*test*/
     height: 300px;
     background-color: blueviolet;
     position: absolute;
     top: 50px;
-    left: 330px;
+    left: 352px;
 }
 
 .paragrafo {
