@@ -20,14 +20,12 @@ body {
     font-family: "Montserrat, serif";
     /*test*/
     background-color: aqua;
-    /*test CAMBIARE IN NERO*/
     color: black;
 }
 
 /*INIZIO HEADER*/
 header {
     width: 100%;
-    /*test*/
     height: 720px;
     background-color: #FFF3EC;
 }
@@ -35,8 +33,6 @@ header {
 /*inizio row-top*/
 .header__row-top {
     width: 100%;
-    /*test*/
-    height: 70px;
     background-color: chartreuse;
 }
 .container-generale {
@@ -47,7 +43,6 @@ header {
 
 .container-left {
     width: 50%;
-    /*test*/
     height: 70px;
     background-color: blue;
     float: left;
@@ -62,8 +57,6 @@ header {
 
 .container-right {
     width: 50%;
-    /*test*/
-    height: 70px;
     background-color: white;
     float: left;
 }
@@ -101,8 +94,6 @@ header {
 /*inizio row-down*/
 .header__row-down {
     width: 100%;
-    /*test*/
-    height: 70px;
     background-color: chocolate;
 }
 
@@ -120,10 +111,10 @@ header {
 
 /*fine row-down*/
 
+
 /*inizio cover*/
 .cover {
     width: 100%;
-    /*test*/
     height: 80.4%;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
@@ -133,8 +124,6 @@ header {
 
 .cover__banner {
     width: 27%;
-    /*test*/
-    height: 300px;
     background-color: blueviolet;
     position: absolute;
     top: 50px;
@@ -163,8 +152,6 @@ header {
 /*INIZIO MAIN*/
 main {
     width: 100%;
-    /*test*/
-    height: 2050px;
     background-color: lightslategray;
     padding-top: 50px;
 }
@@ -173,16 +160,12 @@ main {
 .wrapper-top {
     margin: auto;
     width: 80%;
-    /*test*/
-    height: 1200px;
     background-color: lime;
 }
 
 /*inizio container top*/
 .container-top {
     width: 70%;
-    /*test*/
-    height: 400px;
     background-color: mediumturquoise;
     margin: auto;
 }
@@ -190,7 +173,8 @@ main {
 .container-top img {
     height: 160px;
     width: auto;
-    padding-left: 290px;
+    padding-left: 320px;
+    padding-top: 40px;
 }
 
 .container-top h2 {
@@ -202,13 +186,27 @@ main {
 }
 /*fine container top*/
 
+
+/*inizio container centre*/
 .container-centre {
     width: 70%;
-    /*test*/
-    height: 400px;
     background-color: peru;
     margin: auto;
+    padding: 40px;
 }
+
+.container-centre__contents__col-left {
+    width: 30%;
+    height: 250px;
+    background-color: crimson;
+    float: left;
+}
+
+.container-centre__contents__col-right {
+
+}
+/*fine container centre*/
+
 
 .container-cols {
     width: 70%;
