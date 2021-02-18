@@ -331,6 +331,18 @@ main {
     background-color: royalblue;
     border-right: white solid 1px;
     border-bottom: white solid 1px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.cubo-top img {
+    height: 50px;
+    width: auto;
+}
+
+.number {
+    color: white;
+    font-size: 40px;
 }
 
 .cubo-bottom {
