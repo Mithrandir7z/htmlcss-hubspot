@@ -318,6 +318,43 @@ main {
     height: 430px;
     background-color: bisque;
 }
+
+.centre__col-bottom__row {
+    width: 100%;
+    height: 50%;
+}
+
+.cubo-top {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: royalblue;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+.cubo-bottom {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: royalblue;
+    border-right: white solid 1px;
+}
+
+#cubo-destra-finale-top {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: royalblue;
+    border-bottom: white solid 1px;
+}
+
+#cubo-destra-finale-bottom {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: royalblue;
+}
 /*fine wrapper centre*/
 
 .wrapper-bottom {
