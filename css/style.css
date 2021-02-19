@@ -501,7 +501,6 @@ footer {
     width: 54%;
     height: 550px;
     margin: auto;
-    background-color: hotpink;
 }
 
 .footer__wrapper__container {
@@ -510,7 +509,6 @@ footer {
     float: left;
     padding: 20px;
     color: white;
-    background-color: indigo;
 }
 
 .footer__wrapper__container ul {
@@ -529,8 +527,24 @@ footer {
 
 .footer__wrapper__row {
     width: 100%;
-    height: 100px;
-    background-color: greenyellow;
+    height: 30px;
     float: left;
+    border-bottom: solid white 1px;
+    background-color: lawngreen;
+}
+
+.footer__wrapper__row ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer__wrapper__row li {
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.footer__wrapper__row a {
+    text-decoration: none;
+    color: white;
 }
 /*FINE FOOTER*/
