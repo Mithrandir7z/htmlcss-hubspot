@@ -499,15 +499,38 @@ footer {
 
 .footer__wrapper {
     width: 54%;
-    height: 500px;
-    background-color: coral;
+    height: 550px;
     margin: auto;
+    background-color: hotpink;
 }
 
 .footer__wrapper__container {
     width: 25%;
-    height: 50%;
+    height: 56%;
     float: left;
+    padding: 20px;
+    color: white;
+    background-color: indigo;
+}
+
+.footer__wrapper__container ul {
+    list-style-type: none;
+}
+
+.footer__bottone {
+    background-color: white;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 12.8px;
+}
+
+.footer__wrapper__row {
+    width: 100%;
+    height: 100px;
     background-color: greenyellow;
+    float: left;
 }
 /*FINE FOOTER*/
