@@ -139,6 +139,10 @@ header {
     font-size: 15px;
 }
 
+#paragrafo {
+    font-size: 14.1px;
+}
+
 .cover__bottone {
     background-color: orangered;
     padding: 16px;
@@ -179,12 +183,12 @@ main {
     width: 70%;
     background-color: #F4F9FD;
     margin: auto;
+    text-align: center;
 }
 
 .container-top img {
     height: 160px;
     width: auto;
-    padding-left: 450px;
     padding-top: 40px;
 }
 
@@ -214,6 +218,7 @@ main {
 #left {
     width: 100%;
     height: 75%;
+    text-align: center;
 }
 
 #bottom {
@@ -224,8 +229,6 @@ main {
 .container-centre__contents__col-left img {
     height: 150px;
     width: auto;
-    padding-left: 55px;
-    padding-top: 20px;
 }
 
 #justify {
@@ -250,27 +253,23 @@ main {
 }
 
 .cols {
-    width: 26.7%;
-    height: 550px;
+    width: 26.3%;
     background-color: white;
     float: left;
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 3.51%;
+    text-align: center;
 }
 
 
 
 .cols__top {
     width: 100%;
-    height: 55%;
     background-color: white;
 }
 
 .cols__top img {
     height: 120px;
     width: auto;
-    margin-left: 90px;
     margin-top: 13px;
 }
 
@@ -286,8 +285,6 @@ main {
 
 .cols__bottom {
     width: 100%;
-    height: 45%;
-    padding: 0px 30px 0px 30px;
     background-color: white;
 }
 
@@ -299,6 +296,12 @@ main {
     list-style-type: none;
     text-align: center;
     padding-top: 50px;
+}
+
+.spaziatura {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
 }
 /*fine container cols*/
 
@@ -429,7 +432,6 @@ main {
 
 .container-bottom__col-left {
     width: 50%;
-    height: 480px;
     float: left;
 }
 
@@ -501,7 +503,6 @@ footer {
 
 .footer__wrapper {
     width: 54%;
-    height: 550px;
     margin: auto;
 }
 
