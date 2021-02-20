@@ -307,13 +307,15 @@ main {
 
 
 /*inizio wrapper centre*/
-.wrapper-centre {
-    width: 100%;
+
+.larghezza-100 {
     background-color: #00ACB5;
-    padding-left: 470px;
-    padding-right: 470px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+}
+
+.wrapper-centre {
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px;
 }
 
 .centre__col-top {
